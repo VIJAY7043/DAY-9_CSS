@@ -1,0 +1,96 @@
+/* EXTERNAL */
+/* div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    height: 100px;
+} */
+p{
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    font-size: x-large;
+    height: 100px;
+}
+/* <!-- CSS properties -->
+
+<!-- four types of properties
+1.Text Properties.
+2.List Properties.
+3.Border Properties.
+4.Font Properties. -->
+
+<!-- LIST --> */
+
+ul{
+    list-style-type: square;
+}
+/* font */
+p{
+    font-size: 100px;
+    font-style: italic ;
+}
+/* border */
+p{
+    border-radius: 50%;
+    border: 20px solid red;
+}
+/* text */
+p{
+    text-align: center;
+}
+
+.ele{
+    border: 2px solid black;
+    height: max-content;
+    width: max-content;
+    background-color: tomato;
+}
+#id-ele{
+    border: 3px solid plum;
+    height: max-content;
+    width: max-content;
+    background-color: goldenrod;
+}
+
+/* id and class = accept
+id and id = no
+class and class = accept */
+
+/* !IMPORTANT */
+#container a {
+  background-color: pink;
+    margin: 9px;
+    padding: 2px;
+}
+.eve2{
+   background-color:  yellowgreen !important;
+   
+}
+
+.block{
+    display: block;
+    background-color: bisque;
+    padding:5px;
+    margin: 5px;
+    height: 10px;
+    width: fit-content;
+    
+}
+
+ .inline{   /*inline doesn't take width and height */
+    display: inline;
+    background-color: rgb(242, 138, 12);
+    padding:5px;
+    margin: 5px;
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: rgb(118, 10, 207);
+    padding:5px;
+    margin: 5px;
+    height: 10px;
+    width: max-content;
+}
